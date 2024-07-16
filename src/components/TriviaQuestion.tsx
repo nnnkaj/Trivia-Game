@@ -28,7 +28,7 @@ const TriviaQuestion: React.FC<Props> = ({ question, onNext }) => {
   };
 
   return (
-    <div className="p-4 border rounded shadow-md">
+    <div className="p-4 mt-32 border rounded shadow-md">
       <h2 className="text-xl mb-4" dangerouslySetInnerHTML={{ __html: question.question }} />
       <div className="space-y-2">
         {allAnswers.map((answer, index) => (
